@@ -5,7 +5,7 @@ let stocks = {
     toppings : ["chocolate", "peanuts"],
  };
 
- let isShopOpen=false
+ let isShopOpen=true
 
  let order = (time,work) =>{
       return new Promise((resolve,reject) => {
@@ -15,7 +15,7 @@ let stocks = {
            },time)
         }
         else{
-            reject("Shop is closed")
+            reject(console.log("Shop is closed"))
         }
       })
  }
