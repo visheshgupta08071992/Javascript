@@ -1,3 +1,13 @@
+/*
+
+The Array.from() method in JavaScript is used to create a new array instance 
+from an iterable object or an array-like object. 
+It allows you to convert objects that are iterable, such as arrays or strings, into a new array.
+
+*/
+
+
+
 //Convert a String to Array
 
 const str = 'Hello';
